@@ -1,0 +1,47 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/QuickStart.AspNetCoreHost/QuickStart.AspNetCoreHost.csproj" />
+    <Project Path="samples/QuickStart.GenericHost/QuickStart.GenericHost.csproj" />
+    <Project Path="samples/QuickStart/QuickStart.csproj" />
+    <Project Path="samples/TestFtpServer.Api/TestFtpServer.Api.csproj" />
+    <Project Path="samples/TestFtpServer.Shell/TestFtpServer.Shell.csproj" />
+    <Project Path="samples/TestFtpServer/TestFtpServer.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path=".editorconfig" />
+    <File Path="azure-pipelines.yml" />
+    <File Path="Directory.Packages.props" />
+    <File Path="DotNetSdkMono.props" />
+    <File Path="FubarDev.FtpServer.ruleset" />
+    <File Path="Global.props" />
+    <File Path="LICENSE.md" />
+    <File Path="PackageLibrary.props" />
+    <File Path="README.md" />
+    <File Path="stylecop.json" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/FubarDev.FtpServer.Abstractions/FubarDev.FtpServer.Abstractions.csproj" />
+    <Project Path="src/FubarDev.FtpServer.Commands/FubarDev.FtpServer.Commands.csproj" />
+    <Project Path="src/FubarDev.FtpServer.Shared/FubarDev.FtpServer.Shared.shproj" />
+    <Project Path="src/FubarDev.FtpServer/FubarDev.FtpServer.csproj" />
+  </Folder>
+  <Folder Name="/src/filesystems/">
+    <Project Path="src/FubarDev.FtpServer.FileSystem.DotNet/FubarDev.FtpServer.FileSystem.DotNet.csproj" />
+    <Project Path="src/FubarDev.FtpServer.FileSystem.GoogleDrive/FubarDev.FtpServer.FileSystem.GoogleDrive.csproj" />
+    <Project Path="src/FubarDev.FtpServer.FileSystem.InMemory/FubarDev.FtpServer.FileSystem.InMemory.csproj" />
+    <Project Path="src/FubarDev.FtpServer.FileSystem.S3/FubarDev.FtpServer.FileSystem.S3.csproj" />
+    <Project Path="src/FubarDev.FtpServer.FileSystem.Unix/FubarDev.FtpServer.FileSystem.Unix.csproj" />
+  </Folder>
+  <Folder Name="/src/membership-providers/">
+    <Project Path="src/FubarDev.FtpServer.MembershipProvider.Pam/FubarDev.FtpServer.MembershipProvider.Pam.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/FubarDev.FtpServer.Tests/FubarDev.FtpServer.Tests.csproj" />
+  </Folder>
+  <Folder Name="/third-party/">
+    <Project Path="third-party/DotNet.Glob/DotNet.Glob.shproj" />
+    <Project Path="third-party/GnuSslStream/GnuSslStream.shproj" />
+    <Project Path="third-party/ReadLine/ReadLine.shproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+ <PropertyGroup>
+     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+     <EnablePackageVersionOverride>true</EnablePackageVersionOverride>
+ </PropertyGroup>
+ <ItemGroup>
+     <PackageVersion Include="AWSSDK.S3" Version="4.0.14" />
+     <PackageVersion Include="FluentFTP" Version="53.0.2" />
+     <PackageVersion Include="FubarDev.FtpServer" Version="3.1.2" />
+     <PackageVersion Include="FubarDev.FtpServer.FileSystem.DotNet" Version="3.1.2" />
+     <PackageVersion Include="FubarDev.PamSharp" Version="[0.5.0, )" />
+     <PackageVersion Include="Google.Apis.Drive.v3" Version="1.72.0.3970" />
+     <PackageVersion Include="JetBrains.Annotations" Version="2025.2.4" />
+     <PackageVersion Include="JKang.IpcServiceFramework.Client" Version="3.1.0" />
+     <PackageVersion Include="JKang.IpcServiceFramework.Client.NamedPipe" Version="3.1.0" />
+     <PackageVersion Include="JKang.IpcServiceFramework.Server" Version="[2.3.1, )" />     
+     <PackageVersion Include="Microsoft.AspNetCore.Http.Features" Version="3.1.32" />
+     <PackageVersion Include="Microsoft.DotNet.PlatformAbstractions" Version="[3.1.6, )" />
+     <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.Logging" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.Extensions.Options" Version="10.0.0" />
+     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+     <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+     <PackageVersion Include="Mono.Posix.NETStandard" Version="[1.0.0, )" />
+     <PackageVersion Include="Nito.AsyncEx.Context" Version="[5.1.2, )" />
+     <PackageVersion Include="NLog.Extensions.Logging" Version="6.1.0" />
+     <PackageVersion Include="Portable.BouncyCastle" Version="[1.9.0, )" />
+     <PackageVersion Include="Scrutor" Version="7.0.0" />
+     <PackageVersion Include="Serilog" Version="4.3.0" />
+     <PackageVersion Include="Serilog.AspNetCore" Version="10.0.0" />
+     <PackageVersion Include="Serilog.Extensions.Logging" Version="10.0.0" />
+     <PackageVersion Include="Serilog.Sinks.Console" Version="6.1.1" />
+     <PackageVersion Include="StyleCop.Analyzers" Version="[1.1.118, )" />
+     <PackageVersion Include="System.ComponentModel.Annotations" Version="[5.0.0, )" />
+     <PackageVersion Include="System.Interactive.Async" Version="7.0.0" />
+     <PackageVersion Include="System.Net.Sockets" Version="[4.3.0, )" />
+     <PackageVersion Include="System.Text.Encoding.CodePages" Version="10.0.0" />
+     <PackageVersion Include="System.Threading.Channels" Version="[6.0.0, )" />
+     <PackageVersion Include="xunit" Version="2.9.3" />
+     <PackageVersion Include="Xunit.Extensions.Logging" Version="[1.1.0, )" />
+     <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+     <PackageVersion Include="Xunit.SkippableFact" Version="1.5.23" />
+ </ItemGroup>
+</Project>
