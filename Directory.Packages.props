@@ -57,12 +57,6 @@
     <PackageVersion Include="Xunit.Extensions.Logging" Version="[1.1.0, )" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
     <PackageVersion Include="Xunit.SkippableFact" Version="1.5.61" />
-  </ItemGroup>
-
-
-
-  <ItemGroup Condition=" $(TargetFramework.StartsWith('net8.0'))">
-    <PackageVersion Update="Microsoft.Extensions.Features" Version="8.0.26" />
-  </ItemGroup>
+  </ItemGroup> 
   
 </Project>
