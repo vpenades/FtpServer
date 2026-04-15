@@ -8,8 +8,9 @@
 
     <PackageVersion Include="System.ComponentModel.Annotations" Version="[5.0.0, )" />
     <PackageVersion Include="System.Interactive.Async" Version="7.0.0" />    
-    <PackageVersion Include="System.Threading.Channels" Version="10.0.6" />    
-    
+    <PackageVersion Include="System.Threading.Channels" Version="10.0.6" />
+
+    <PackageVersion Include="Microsoft.Extensions.Features" Version="10.0.6" />
     <PackageVersion Include="Microsoft.DotNet.PlatformAbstractions" Version="[3.1.6, )" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.6" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.6" />
@@ -57,6 +58,10 @@
     <PackageVersion Include="Xunit.Extensions.Logging" Version="[1.1.0, )" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
     <PackageVersion Include="Xunit.SkippableFact" Version="1.5.61" />
-  </ItemGroup> 
-  
+  </ItemGroup>
+
+  <ItemGroup Condition="$(TargetFramework.StartsWith('net8.0'))">
+    <PackageVersion Update="Microsoft.Extensions.Features" Version="8.0.26" />
+  </ItemGroup>
+
 </Project>

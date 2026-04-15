@@ -6,13 +6,10 @@
     <Description>Interfaces for the portable FTP server</Description>
     <RootNamespace>FubarDev.FtpServer</RootNamespace>
     <PackageTags>portable;FTP;server</PackageTags>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
+  </PropertyGroup>  
   
-  <ItemGroup>    
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Features" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
     <PackageReference Include="Microsoft.Extensions.Options" />
     <PackageReference Include="System.ComponentModel.Annotations" />    
