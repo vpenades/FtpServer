@@ -1,17 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
+  
   <PropertyGroup>
     <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
     <Description>Commands for the portable FTP server</Description>
     <RootNamespace>FubarDev.FtpServer</RootNamespace>
     <PackageTags>portable;FTP;server</PackageTags>
   </PropertyGroup>
+  
   <Import Project="../../PackageLibrary.props" />
+  
   <ItemGroup>
     <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\FubarDev.FtpServer.Abstractions.csproj" />
   </ItemGroup>
+  
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" />
   </ItemGroup>
+  
   <Import Project="..\..\third-party\DotNet.Glob\DotNet.Glob.projitems" Label="Shared" />
 </Project>
